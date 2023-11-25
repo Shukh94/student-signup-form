@@ -1,0 +1,401 @@
+
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+
+  <!-- bootstrap link -->
+  <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.2/dist/css/bootstrap.min.css" rel="stylesheet" integrity="sha384-T3c6CoIi6uLrA9TneNEoa7RxnatzjcDSCmG1MXxSR1GAsXEV/Dwwykc2MPK8M2HN" crossorigin="anonymous">
+
+  <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.3.2/dist/js/bootstrap.bundle.min.js" integrity="sha384-C6RzsynM9kWDrMNeT87bh95OGNyZPhcTNXj1NW7RuBCsyN/o0jlpcV8Qyq46cDfL" crossorigin="anonymous"></script>
+
+  <!-- google fonts -->
+  <link rel="preconnect" href="https://fonts.googleapis.com">
+  <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+  <link href="https://fonts.googleapis.com/css2?family=Poppins:wght@400;500;600;700&display=swap" rel="stylesheet">
+
+  <!-- css link -->
+  <link rel="stylesheet" href="style.css">
+
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+
+  <title>Student Registration Form</title>
+</head>
+
+<body>
+</div>
+    <div id="page_student_registration" class="main_container page_identifier">
+      	<div class="page_caption">Student Registration Form</div>
+        <div class="page_body">
+           	<fieldset class="divider"><legend>Please enter relevent information</legend></fieldset>
+							<div class="stitle">Mandatory Field*</div>
+							<form id="frm_student_registration" method="post" action="" >
+								<div class="left_section">
+									<table width="100%"> 
+										<tr>
+											<td>
+												<div class="form_label">District (<span class="stitle">Institute District: Where you want to do your course</span>)*</div>
+												<div>
+                                                    <select class="input_full input_style" id="" name="d" required>
+													 		<option value="">--Select One--</option>
+													 		<option value="1">Dhaka</option>
+                                                            <option value="4">Narayanganj</option>
+                                                            <option value="5">Bogra</option>
+                                                            <option value="6">Gazipur</option>
+                                                            <option value="7">Mymensing</option>
+                                                            <option value="8">Naogaon</option>
+                                                            <option value="9">Faridpur</option>
+                                                            <option value="10">Gopalganj</option> 
+                                                            <option value="11">Jamalpur</option>
+													 </select>
+												</div>
+											</td>
+										</tr>
+										
+										<tr>
+											<td>
+												<div class="form_label">Course*</div>
+												<div>
+													 <select class="input_full input_style" id="slot_id" name="slot_id" required>
+													 		<option value="">--Select One--</option>
+													 		<option value="37">Web Design &amp; Development - 2020 (2020,February)</option><option value="38">Graphic Design - 2020 (2020,February)</option><option value="39">Digital Marketing - 2020 (2020,February)</option> 
+													 </select>
+												</div>
+											</td>
+										</tr>
+										
+										<tr>
+											<td>
+												<div class="form_label">Student Name*</div>
+												<div>
+													 <input type="text"  class="input_full input_style" id="student_name" name="student_name"/>
+												</div>
+											</td>
+										</tr>
+										<tr>
+											<td>
+												<div class="form_label">Father Name*</div>
+												<div>
+                                                    <input type="text" class="input_full input_style" name="father_name">
+												</div>
+											</td>
+										</tr>
+										<tr>
+											<td>
+												<div class="form_label">Mother Name*</div>
+												<div>
+                                                    <input type="text" class="input_full input_style" name="mother_name">
+												</div>
+											</td>
+										</tr>
+
+										<tr>
+											<td>
+											  <div>
+											  	<fieldset>
+											  		<legend style="font-size:inherit;">Date of Birth*</legend>
+												  	<table>
+												  		<tr>
+												  			<td>
+												  				Day:&nbsp;
+																	<select name="date_of_birth_day" class="input_full input_style" id="day" required>
+																		<option value="">Select</option>
+																																				<option value="1" >1</option>
+																																				<option value="2" >2</option>
+																																				<option value="3" >3</option>
+																																				<option value="4" >4</option>
+																																				<option value="5" >5</option>
+																																				<option value="6" >6</option>
+																																				<option value="7" >7</option>
+																																				<option value="8" >8</option>
+																																				<option value="9" >9</option>
+																																				<option value="10" >10</option>
+																																				<option value="11" >11</option>
+																																				<option value="12" >12</option>
+																																				<option value="13" >13</option>
+																																				<option value="14" >14</option>
+																																				<option value="15" >15</option>
+																																				<option value="16" >16</option>
+																																				<option value="17" >17</option>
+																																				<option value="18" >18</option>
+																																				<option value="19" >19</option>
+																																				<option value="20" >20</option>
+																																				<option value="21" >21</option>
+																																				<option value="22" >22</option>
+																																				<option value="23" >23</option>
+																																				<option value="24" >24</option>
+																																				<option value="25" >25</option>
+																																				<option value="26" >26</option>
+																																				<option value="27" >27</option>
+																																				<option value="28" >28</option>
+																																				<option value="29" >29</option>
+																																				<option value="30" >30</option>
+																																				<option value="31" >31</option>
+																																			</select>
+																	<div><span class="fred"></span></div>
+												  			</td>
+												  			<td>
+												  				Month:&nbsp;
+																	<select name="date_of_birth_month" class="input_full input_style" id="" required>
+																		<option value="">Select</option>
+																																				<option value="1" >1</option>
+																																				<option value="2" >2</option>
+																																				<option value="3" >3</option>
+																																				<option value="4" >4</option>
+																																				<option value="5" >5</option>
+																																				<option value="6" >6</option>
+																																				<option value="7" >7</option>
+																																				<option value="8" >8</option>
+																																				<option value="9" >9</option>
+																																				<option value="10" >10</option>
+																																				<option value="11" >11</option>
+																																				<option value="12" >12</option>
+																																			</select>
+																	<div><span class="fred"></span></div>
+												  			</td>
+												  			<td>
+												  				Year:&nbsp;
+																	<select name="date_of_birth_year" class="input_full input_style" id="" required>
+																		<option value="">Select</option>
+																																				<option value="1980" >1980</option>
+																																				<option value="1981" >1981</option>
+																																				<option value="1982" >1982</option>
+																																				<option value="1983" >1983</option>
+																																				<option value="1984" >1984</option>
+																																				<option value="1985" >1985</option>
+																																				<option value="1986" >1986</option>
+																																				<option value="1987" >1987</option>
+																																				<option value="1988" >1988</option>
+																																				<option value="1989" >1989</option>
+																																				<option value="1990" >1990</option>
+																																				<option value="1991" >1991</option>
+																																				<option value="1992" >1992</option>
+																																				<option value="1993" >1993</option>
+																																				<option value="1994" >1994</option>
+																																				<option value="1995" >1995</option>
+																																				<option value="1996" >1996</option>
+																																				<option value="1997" >1997</option>
+																																				<option value="1998" >1998</option>
+																																				<option value="1999" >1999</option>
+																																				<option value="2000" >2000</option>
+																																				<option value="2001" >2001</option>
+																																				<option value="2002" >2002</option>
+																																				<option value="2003" >2003</option>
+																																				<option value="2004" >2004</option>
+																																				<option value="2005" >2005</option>
+																																				<option value="2006" >2006</option>
+																																				<option value="2007" >2007</option>
+																																			</select>
+												  			</td>
+												  		</tr>
+												  	</table>
+												  </fieldset>
+											  </div>
+											</td>
+										</tr> 
+										
+										<tr >
+			                <td>
+			                  <div class="check_data_class">
+			                    <div  class="form_label">
+														<div class="col-md-10">
+			                        <div class="col-md-4" style="margin:0;padding:0">Gender* <label> &nbsp;&nbsp;<input type="radio" name="gender" value="male"  required> Male</label></div>
+			                        <div class="col-md-4"><label><input type="radio" name="gender" value="female"  > Female</label></div>
+														</div>
+			                  </div>   
+			                 
+			                </td>
+			              </tr>
+			              <tr class='participate_or_not'>
+			                <td>
+			                  <div class="check_data_class">
+			                    <div  class="form_label">
+														<div class="col-md-12" style="margin:0;padding:0">
+															Did you participate the 15 days literacy training of LEDP?*
+															<div class="col-md-3">&nbsp;</div>
+			                        <div class="col-md-3" style="margin:0;padding:0"><label><input type="radio" name="participate_or_not" value="yes"  > Yes</label></div>
+			                        <div class="col-md-3"><label><input type="radio" name="participate_or_not" value="no"  > No</label></div>
+														</div>
+			                  </div>   
+			                 
+			                </td>
+			              </tr>  
+			              <tr>
+			                <td>
+			                  <div class="check_data_class">
+			                    <div  class="form_label">
+														<div class="col-md-12" style="margin:0;padding:0">
+			                        <div class="col-md-6" style="margin:0;padding:0">Physically Handicapped* <label> &nbsp;&nbsp;<input type="radio" name="handicapped" value="1"  >Yes</label></div>
+			                        <div class="col-md-6"><label><input type="radio" name="handicapped" value="-1"  > No</label></div>
+														</div>
+													</div>	
+			                  </div>   
+			                 
+			                </td>
+			              </tr> 
+										<tr>
+											<td>
+											  <div class="form_label">Email*</div>
+											  <div>
+												<input type="email" class="input_full input_style" id="email" name="email"  value="" data-parsley-trigger="change" required />
+												<div class="form_label">(e.g: example@mail.com)</div>
+												
+											  </div>
+											</td>
+										 </tr> 
+										 <tr>
+											<td>
+											  <div class="form_label">Phone (Must be 11 Digits)*</div>
+											  <div>
+												<input type="text"  class="input_full input_style" id="phone" name="phone" value="" maxlength="11" data-parsley-validation-threshold="0" data-parsley-trigger="keyup" data-parsley-maxlength="11" data-parsley-minlength="11" required />
+												<div class="form_label">(e.g:0155123456)</div>
+												
+											  </div>
+											</td>
+										</tr>
+									</table>
+								</div>
+								
+								<div class="right_section">
+									<table width="100%">
+										<tr>
+											<td>
+											  <div class="form_label">Identification Type*</div>
+											  <div>
+													<select name="identification_type" class="input_full input_style" id="" required>
+														<option value="">Select One</option>
+														<option value="birth_certificate" >Birth Certificate No.</option>
+														<option value="national_id" >National ID</option>
+													</select>
+													<div></div>
+											  </div>
+											</td>
+										</tr> 
+										<tr>
+											<td>
+											  <div class="form_label">Identification No. (Must be 10 digits for new NID or 17 digits for old NID. If your National ID is 13 digits, then please add your birth year with the ID as prefix. Example: 1980XXXXXXXXXXXXX)*</div>
+											  <div>
+												<input type="text"  class="input_full input_style" id="identification_no" name="identification_no" value="" required data-parsley-type="number" minlength="10" maxlength="17"/>
+												
+											  </div>
+											</td>
+										</tr> 
+										<tr>
+											<td>
+												<div class="form_label">Home District*</div>
+												<select name="district_id" class="input_full input_style" id="district_id"  required>
+													<option value="">Select One</option>
+                                                    <option value=""></option>
+                                                </select>
+												<div>
+													
+												</div>
+											</td>
+										</tr>
+										<tr>
+											<td>
+												<div class="form_label">Upazila*</div>
+												<select name="upazila_id" class="input_full input_style" id="upazila_id"  required>
+													<option value="">Select One</option> </option>
+                                                    <option value=""></option>
+                                                </select>
+												<div>
+													
+												</div>
+											</td>
+										</tr>
+										<tr>
+											<td>
+												<div class="form_label">Village/House No./Road No./Other Alternative*</div>
+												<div>
+													<input type="text"  class="input_full input_style" id="village" name="village"  value="" maxlength="101" data-parsley-validation-threshold="0" data-parsley-trigger="keyup" data-parsley-maxlength="100" required/>
+													
+												</div>
+											</td>
+										</tr>
+										<tr>
+											<td>
+												<div class="form_label">Post Office*</div>
+												<div>
+													<input type="text"  class="input_full input_style" id="post_office" name="post_office"  value="" maxlength="101" data-parsley-validation-threshold="0" data-parsley-trigger="keyup" data-parsley-maxlength="100" required/>
+													
+												</div>
+											</td>
+										</tr>
+										<tr>
+											<td>
+												<div class="form_label">Educational Qualification* <span class="smtitle">(Higher Level)</span></div>
+												<div >  
+													<select  class="input_full input_style"  id="educational_qualification" name="educational_qualification" required >
+														<option value="">--Select One--</option>
+														<!--<option value="primary"  >Primary</option>-->
+														<!--<option value="secondary"  >Secondary</option>-->
+														<option value="higher secondary"  >Higher Secondary/Equivalent</option>
+														<option value="bachelor"  >Bachelor</option>
+														<option value="master"  >Master</option>
+														<option value="phd" >Phd</option>
+													</select>
+												</div>
+												<div>
+													
+												</div>
+											</td>
+										</tr>
+										<tr>
+			                <td>
+			                  <div class="check_data_class">
+			                    <div  class="form_label">
+														<div class="col-md-12" style="margin:0;padding:0">
+			                        <div class="col-md-6" style="margin:0;padding:0">Have any computer?* <label> <input type="radio" name="computer" value="Yes"  required>Yes</label></div>
+			                        <div class="col-md-6"><label><input type="radio" name="computer" value="No"  > No</label></div>
+														</div>
+													</div>	
+			                  </div>   
+			                 <span class="fred"></span>
+			                </td>
+			              </tr> 
+										<tr>
+											<td>
+												<div class="form_label">Photograph*</div>
+												<div>
+												  <input type="file"  id="attachments" name="attachments" required />
+												  <div class="form_label">(File type must be jpg or jpeg or png. Maximum file size 2 mb.)</div>
+												  
+												</div>
+																							
+											</td>
+										</tr> 
+
+										<tr>
+											<td>
+												<div class="form_label">Signature*</div>
+												<div>
+												  <input type="file"  id="signature" name="signature" required />
+												  <div class="form_label">(File type must be jpg or jpeg or png. Maximum file size 2 mb.)</div>
+												  
+												</div>
+												
+																								
+											</td>
+										</tr> 
+										
+									  <tr>
+										  <td>
+											  <div><input type="submit" class="btn_gray" value="Submit Data"  /></div>
+										  </td>
+									  </tr>
+									</table>
+								</div>
+							</form>
+						<div class="float_clear_full">&nbsp;</div>	
+				</div>
+    </div>
+    <div><div id="footer_container">
+
+</div>
+
+</div>
+    
+</div>
+</body>
+</html>
